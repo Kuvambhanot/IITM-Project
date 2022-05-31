@@ -14,12 +14,17 @@ body {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,43,121,1) 31%, rgba(0,212,255,1) 100%);
 }
-
-.column {
+column {
   float:left;
   width: 50%;
 }
-
+p {
+  text-align: center;
+}
+.image {
+  border: 3px solid lightcoral;
+  table-layout: auto;
+}
 .start {
 font-size:xx-large;
 color:white;
@@ -34,6 +39,9 @@ img {
   margin-right: auto;
 }
 
+table {
+  align-items: center;
+}
 th,td {
   padding: 10px;
 }
@@ -287,4 +295,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
