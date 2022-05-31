@@ -30,6 +30,7 @@ color:white;
 }
 
 img {
+  border: 5px solid black;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -38,16 +39,15 @@ img {
   margin-right: auto;
 }
 
-th,td {
-  padding: 10px;
-}
-
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
 }
 
+.table {
+  table-layout: auto;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
